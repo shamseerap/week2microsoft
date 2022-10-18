@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+.bodystyle{
+    width: 90%;
+    margin: 0 auto;
+
+
+}
+
+.logostyle{
+    height: 1.25em;
+
+}
+
+.fa-user-circle{
+    color:antiquewhite;
+    border-color: black;
+    background-color: white;
+}
+
+.nav-item{
+    padding-top: 0.5em;
+    text-decoration-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    size: 1em;
+}
+
+#demo{
+    padding: 0!important;
+    margin: 0!important;
+}
+.carousel-inner{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.carousel-item{
+    position: relative;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 35%;
+    bottom: 40%;
+    left:auto;
+    right: 4%;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+
+
+}
+
+.carousel-caption h2{
+    font-size: 1.8125rem;
+
+}
+
+.carousel-caption h4{
+
+display: inline-block;
+padding: 0.375em 0.75em;
+font-size: 1rem;
+font-weight: 600;
+line-height: 1;
+text-decoration: none;
+vertical-align: top;
+max-width: 100%;
+overflow-wrap: break-word;
+}
+.carousel-caption h2{
+
+font-size: 1.8125rem;
+    margin-bottom: 1rem;
+}
+
+.carousel-caption button{
+
+background-color: #0067b8;
+color: #fff!important;
+font-weight: 600;
+border: 0.125rem solid transparent;
+position: relative;
+border-radius: 0.125rem;
+color: inherit;
+text-decoration: none;
+padding: 0.625rem 0.75rem;
+font-size: 1rem;
+line-height: 1;
+cursor: pointer;
+}
+
+
+.carousel-caption h2{
+    font-size: 1.8125rem;
+
+}
+
+
+.sliderMobile h4{
+
+display: inline-block;
+padding: 0.375em 0.75em;
+font-size: 1rem;
+font-weight: 600;
+line-height: 1;
+text-decoration: none;
+vertical-align: top;
+max-width: 100%;
+overflow-wrap: break-word;
+}
+.sliderMobile h2{
+
+font-size: 1.8125rem;
+    margin-bottom: 1rem;
+}
+
+.sliderMobile button{
+
+background-color: #0067b8;
+color: #fff!important;
+font-weight: 600;
+border: 0.125rem solid transparent;
+position: relative;
+border-radius: 0.125rem;
+color: inherit;
+text-decoration: none;
+padding: 0.625rem 0.75rem;
+font-size: 1rem;
+line-height: 1;
+cursor: pointer;
+}
+
+
+#icons{
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+
+    display: flex!important;
+    align-items:center;
+    justify-content: center!important;
+    box-sizing: border-box;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+#icons a{
+    color: #0067b8;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 600!important;
+
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+
+}
+
+#icons img{
+    border-style: none;
+    
+}
+
+#iconcontainer{
+    max-width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#cardsrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+    text-align: left;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    box-sizing: border-box;
+
+}
+
+.card{
+margin-left: 0;
+margin-right: 0;
+border: none;
+}
+
+.card-title{
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.card-body{
+    padding-left: 0;
+}
+
+.card-link{
+    font-weight: 600;
+}
+
+.card-link-reverse::before, .card-link::after {
+    font-family: MWF-MORAY-MDL2;
+    position: absolute;
+    line-height: 1;
+    top: 50%;
+    margin-top: -0.5em;
+    font-size: .8125em;
+    transition: transform .6s cubic-bezier(.19,1,.22,1);
+}
+
+.sliderMobile{
+    display: none;
+    padding: 3em;
+    align-items: center;
+}
+
+
+
+.edgecontainer{
+    padding-right: 5%;
+    padding-left: 5%;
+
+    
+    
+}
+
+.edgeimage{
+    position: relative;
+
+
+}
+
+.edgecaption{
+    position: absolute;
+    top: 25%;
+    bottom: 40%;
+    left:4%;
+    background-color: #fff;
+    text-align: left;
+    padding: 3em;
+    padding-bottom: 15em;
+    
+}
+
+.edgecaption h2{
+    font-size: 1.8125rem;
+    font-weight: 400;
+    color: #000;
+
+}
+
+.edgecaption button{
+background-color: #0067b8;
+color: #fff!important;
+font-weight: 600;
+border: 0.125rem solid transparent;
+position: relative;
+border-radius: 0.125rem;
+color: inherit;
+text-decoration: none;
+padding: 0.625rem 0.75rem;
+font-size: 1rem;
+line-height: 1;
+cursor: pointer;
+}
+
+
+.edgecaptionmobile{
+    position: absolute;
+    top: 85%;
+    left: 2%;
+    right:2%;
+    display: none;
+    padding: 3rem;
+    background-color: #fff;
+    text-align: left;
+    color: #000;
+    box-shadow: 0 0.0625rem 0.125rem rgb(0 0 0 / 11%), 0 0.1875rem 0.4375rem rgb(0 0 0 / 13%);
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+
+}
+
+.edgecaptionmobile button{
+    background-color: #0067b8;
+color: #fff!important;
+font-weight: 600;
+border: 0.125rem solid transparent;
+position: relative;
+border-radius: 0.125rem;
+color: inherit;
+text-decoration: none;
+padding: 0.625rem 0.75rem;
+font-size: 1rem;
+line-height: 1;
+cursor: pointer;
+}
+
+
+.forbusiness{
+    padding-left: 4em;
+    padding-top: 4em;
+    padding-bottom: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    
+}
+
+.follow{
+    padding-left: 4em;
+    display: flex;
+    justify-content: left;
+    align-items:baseline;
+
+}
+
+.follow img{
+    width: 50%;
+    height: 50%;
+}
+
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+
+#footer{
+    padding-left: 4em;
+    padding-top: 2em;
+    margin-top: 8em;
+    background-color:aliceblue;
+}
+
+#footer a{
+    color: #616161;
+    font-size:0.6875em;
+
+}
+
+#footer strong{
+    color: #616161;
+    font-size: 0.9375em;
+
+}
+
+.secondfooter{
+    background-color:aliceblue;
+    color: #616161;
+    font-size:0.6875em;
+    display: flex;
+    justify-content: right;
+    padding-left: 10em;
+    padding-top: 3em;
+
+
+}
+
+#language{
+    height: 10%;
+    margin-right: auto;
+    padding-left: 3em;
+}
+
+.secondfooter p{
+    margin-right: 2em;
+
+}
+
+
+@media (max-width:1200px){
+    .sliderMobile{
+        display: block;
+    }
+    .sliderLaptop{
+        display: none   ;
+    }
+    .edgecaption{
+        display: none;
+    }
+    .edgecaptionmobile{
+        display: block;
+    }
+}
